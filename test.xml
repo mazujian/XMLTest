@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites tests="116" failures="0" disabled="0" errors="31" time="116" name="">
+	<testsuite name="addTest" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="addTest" />
+	</testsuite>
+	<testsuite name="SetDtatTest" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="SetDtatTest" />
+	</testsuite>
+	<testsuite name="SetGlobalTestTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="SetGlobalTestTest" />
+		<testcase name="case 2" status="run" time="" classname="SetGlobalTestTest" />
+	</testsuite>
+	<testsuite name="CallScriptTestTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="CallScriptTestTest" />
+		<testcase name="case 2" status="run" time="" classname="CallScriptTestTest" />
+		<testcase name="case 3" status="run" time="" classname="CallScriptTestTest" />
+		<testcase name="case 4" status="run" time="" classname="CallScriptTestTest" />
+	</testsuite>
+	<testsuite name="FunctionPtrStructTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrStructTest" />
+		<testcase name="case 2" status="run" time="" classname="FunctionPtrStructTest" />
+	</testsuite>
+	<testsuite name="FunctionPtrTestTest" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrTestTest" />
+		<testcase name="case 2" status="run" time="" classname="FunctionPtrTestTest" />
+		<testcase name="case 3" status="run" time="" classname="FunctionPtrTestTest" />
+		<testcase name="case 4" status="run" time="" classname="FunctionPtrTestTest" />
+	</testsuite>
+	<testsuite name="GlobalTestTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="localIOTest" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="localIOTest" />
+		<testcase name="case 2" status="run" time="" classname="localIOTest" />
+	</testsuite>
+	<testsuite name="MockTestTest" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="MockTestTest" />
+		<testcase name="case 2" status="run" time="" classname="MockTestTest" />
+		<testcase name="case 3" status="run" time="" classname="MockTestTest" />
+		<testcase name="case 4" status="run" time="" classname="MockTestTest" />
+	</testsuite>
+	<testsuite name="powTest" tests="6" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="powTest" />
+		<testcase name="case 2" status="run" time="" classname="powTest" />
+		<testcase name="case 3" status="run" time="" classname="powTest" />
+		<testcase name="case 4" status="run" time="" classname="powTest" />
+		<testcase name="case 5" status="run" time="" classname="powTest" />
+		<testcase name="case 6" status="run" time="" classname="powTest" />
+	</testsuite>
+	<testsuite name="CallScriptTest_2Test" tests="6" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="CallScriptTest_2Test" />
+		<testcase name="case 2" status="run" time="" classname="CallScriptTest_2Test" />
+		<testcase name="case 3" status="run" time="" classname="CallScriptTest_2Test" />
+		<testcase name="case 4" status="run" time="" classname="CallScriptTest_2Test" />
+	</testsuite>
+	<testsuite name="FunctionPtrStruct_2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrStruct_2Test" />
+		<testcase name="case 2" status="run" time="" classname="FunctionPtrStruct_2Test" />
+	</testsuite>
+	<testsuite name="FunctionPtrTest_2Test" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrTest_2Test" />
+		<testcase name="case 2" status="run" time="" classname="FunctionPtrTest_2Test" />
+	</testsuite>
+	<testsuite name="GlobalTest_2Test" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 5" status="run" time="" classname="GlobalTest_2Test" />
+	</testsuite>
+	<testsuite name="localIO_2Test" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="localIO_2Test" />
+		<testcase name="case 2" status="run" time="" classname="localIO_2Test" />
+	</testsuite>
+	<testsuite name="MockTest_2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="MockTest_2Test" />
+	</testsuite>
+	<testsuite name="pow_2Test" tests="5" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="pow_2Test" />
+		<testcase name="case 2" status="run" time="" classname="pow_2Test" />
+		<testcase name="case 3" status="run" time="" classname="pow_2Test" />
+		<testcase name="case 4" status="run" time="" classname="pow_2Test" />
+		<testcase name="case 5" status="run" time="" classname="pow_2Test" />
+	</testsuite>
+	<testsuite name="CallScriptTest_3Test" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="CallScriptTest_3Test" />
+		<testcase name="case 2" status="run" time="" classname="CallScriptTest_3Test" />
+		<testcase name="case 3" status="run" time="" classname="CallScriptTest_3Test" />
+		<testcase name="case 4" status="run" time="" classname="CallScriptTest_3Test" />
+	</testsuite>
+	<testsuite name="FunctionPtrStruct_3Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrStruct_3Test" />
+		<testcase name="case 2" status="run" time="" classname="FunctionPtrStruct_3Test" />
+	</testsuite>
+	<testsuite name="FunctionPtrTest_3Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrTest_3Test" />
+		<testcase name="case 2" status="run" time="" classname="FunctionPtrTest_3Test" />
+		<testcase name="case 3" status="run" time="" classname="FunctionPtrTest_3Test" />
+	</testsuite>
+	<testsuite name="GlobalTest_3Test" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="localIO_3Test" tests="6" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="localIO_3Test" />
+		<testcase name="case 2" status="run" time="" classname="localIO_3Test" />
+		<testcase name="case 3" status="run" time="" classname="localIO_3Test" />
+	</testsuite>
+	<testsuite name="MockTest_3Test" tests="3" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="MockTest_3Test" />
+		<testcase name="case 2" status="run" time="" classname="MockTest_3Test" />
+		<testcase name="case 3" status="run" time="" classname="MockTest_3Test" />
+	</testsuite>
+	<testsuite name="pow_3Test" tests="5" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="pow_3Test" />
+		<testcase name="case 2" status="run" time="" classname="pow_3Test" />
+		<testcase name="case 3" status="run" time="" classname="pow_3Test" />
+		<testcase name="case 4" status="run" time="" classname="pow_3Test" />
+		<testcase name="case 5" status="run" time="" classname="pow_3Test" />
+	</testsuite>
+	<testsuite name="downtomultTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="downtomultTest" />
+		<testcase name="case 2" status="run" time="" classname="downtomultTest" />
+	</testsuite>
+	<testsuite name="jas_image_fmttostrTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_image_fmttostrTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_image_fmttostrTest" />
+	</testsuite>
+	<testsuite name="jas_image_growcmptsTest" tests="2" failures="" disabled="" errors="1" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_image_growcmptsTest">
+			<failure message="case 1: return expected 0 but -1" type="error">&lt;!case 1: return expected 0 but -1&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="jas_image_growcmptsTest" />
+	</testsuite>
+	<testsuite name="jas_image_strtofmtTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_image_strtofmtTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_image_strtofmtTest" />
+	</testsuite>
+	<testsuite name="gammafnTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="gammafnTest" />
+	</testsuite>
+	<testsuite name="icctoclrspcTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="jas_clrspc_numchansTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_clrspc_numchansTest" />
+	</testsuite>
+	<testsuite name="jas_cmgetintTest" tests="22" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 3" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 4" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 5" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 6" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 7" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 8" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 9" status="run" time="" classname="jas_cmgetintTest" />
+		<testcase name="case 10" status="run" time="" classname="jas_cmgetintTest" />
+	</testsuite>
+	<testsuite name="jas_cmprof_copyTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_cmprof_copyTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_cmprof_copyTest" />
+		<testcase name="case 3" status="run" time="" classname="jas_cmprof_copyTest" />
+	</testsuite>
+	<testsuite name="jas_cmprof_createTest" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_cmprof_createTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_cmprof_createTest" />
+	</testsuite>
+	<testsuite name="jas_cmprof_createfromclrspcTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_cmprof_createfromclrspcTest" />
+	</testsuite>
+	<testsuite name="jas_cmprof_createfromiccprofTest" tests="4" failures="" disabled="" errors="8" time="">
+		<testcase name="case 2" status="run" time="" classname="jas_cmprof_createfromiccprofTest">
+			<failure message="case 2: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 2: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+			<failure message="case 2: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 2: 被测试代码产生不明错误导致测试中断&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="jas_cmprof_createfromiccprofTest">
+			<failure message="case 3: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 3: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+			<failure message="case 3: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 3: 被测试代码产生不明错误导致测试中断&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="jas_cmprof_destroyTest" tests="2" failures="" disabled="" errors="4" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_cmprof_destroyTest">
+			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="jas_cmpxformseq_appendTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="jas_cmpxformseq_copyTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="jas_cmpxformseq_createTest" tests="2" failures="" disabled="" errors="4" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_cmpxformseq_createTest">
+			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="jas_cmpxformseq_insertpxformTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="jas_cmpxform_destroyTest" tests="1" failures="" disabled="" errors="1" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_cmpxform_destroyTest">
+			<failure message="case 1: pxform@A-&gt;refcnt expected 99 but 100" type="error">&lt;!case 1: pxform@A-&gt;refcnt expected 99 but 100&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="jas_cmshapmatlut_lookupTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="jas_iccprof_createfromcmprofTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="GetInfoTest" tests="2" failures="" disabled="" errors="4" time="">
+		<testcase name="case 1" status="run" time="" classname="GetInfoTest">
+			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="LocalInoutTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="LocalInoutTest" />
+	</testsuite>
+	<testsuite name="ParamFuncptrTest" tests="2" failures="" disabled="" errors="4" time="">
+		<testcase name="case 1" status="run" time="" classname="ParamFuncptrTest">
+			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="Test001Test" tests="6" failures="" disabled="" errors="4" time="">
+		<testcase name="case 1" status="run" time="" classname="Test001Test">
+			<failure message="case 1: uiPhyPortMax@G expected 1 but 0" type="error">&lt;!case 1: uiPhyPortMax@G expected 1 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="Test001Test" />
+		<testcase name="case 3" status="run" time="" classname="Test001Test">
+			<failure message="case 3: uiPhyPortMax@G expected 3 but 0" type="error">&lt;!case 3: uiPhyPortMax@G expected 3 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="Test001Test">
+			<failure message="case 4: uiPhyPortMax@G expected 1 but 0" type="error">&lt;!case 4: uiPhyPortMax@G expected 1 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 5" status="run" time="" classname="Test001Test">
+			<failure message="case 5: uiPhyPortMax@G expected 1 but 0" type="error">&lt;!case 5: uiPhyPortMax@G expected 1 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 6" status="run" time="" classname="Test001Test" />
+	</testsuite>
+	<testsuite name="Test002Test" tests="3" failures="" disabled="" errors="1" time="">
+		<testcase name="case 1" status="run" time="" classname="Test002Test">
+			<failure message="case 1: return expected 1048574 but 0" type="error">&lt;!case 1: return expected 1048574 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="Test002Test" />
+		<testcase name="case 3" status="run" time="" classname="Test002Test" />
+	</testsuite>
+	<testsuite name="Test003Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="Test003Test" />
+		<testcase name="case 2" status="run" time="" classname="Test003Test" />
+		<testcase name="case 3" status="run" time="" classname="Test003Test" />
+		<testcase name="case 4" status="run" time="" classname="Test003Test" />
+	</testsuite>
+	<testsuite name="Test004Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="Test004Test" />
+		<testcase name="case 2" status="run" time="" classname="Test004Test" />
+	</testsuite>
+	<testsuite name="jas_cleanupTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="jas_initTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_initTest" />
+	</testsuite>
+	<testsuite name="jas_eprintfTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_eprintfTest" />
+	</testsuite>
+	<testsuite name="jas_getdbglevelTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_getdbglevelTest" />
+	</testsuite>
+	<testsuite name="jas_memdumpTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_memdumpTest" />
+	</testsuite>
+	<testsuite name="jas_setdbglevelTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_setdbglevelTest" />
+	</testsuite>
+	<testsuite name="jas_iccattrtab_copyTest" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="jas_iccattrtab_createTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_iccattrtab_createTest" />
+	</testsuite>
+	<testsuite name="jas_iccattrtab_destroyTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_iccattrtab_destroyTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_iccattrtab_destroyTest" />
+		<testcase name="case 3" status="run" time="" classname="jas_iccattrtab_destroyTest" />
+	</testsuite>
+	<testsuite name="jas_iccpadtomultTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_iccpadtomultTest" />
+	</testsuite>
+	<testsuite name="jas_iccpowiTest" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_iccpowiTest" />
+	</testsuite>
+	<testsuite name="jas_iccprof_destroyTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_iccprof_destroyTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_iccprof_destroyTest" />
+		<testcase name="case 3" status="run" time="" classname="jas_iccprof_destroyTest" />
+	</testsuite>
+	<testsuite name="jas_strdupTest" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_strdupTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_strdupTest" />
+	</testsuite>
+	<testsuite name="jas_taginfo_nonullTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jas_taginfo_nonullTest" />
+		<testcase name="case 2" status="run" time="" classname="jas_taginfo_nonullTest" />
+	</testsuite>
+	<testsuite name="jp2_cdef_getdataTest" tests="3" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="jp2_cdef_getdataTest" />
+		<testcase name="case 2" status="run" time="" classname="jp2_cdef_getdataTest" />
+		<testcase name="case 3" status="run" time="" classname="jp2_cdef_getdataTest" />
+	</testsuite>
+</testsuites>
