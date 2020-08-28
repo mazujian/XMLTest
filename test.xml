@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testsuites tests="45" failures="0" disabled="0" errors="23" time="45" name="">
-	<testsuite name="addTest" tests="0" failures="" disabled="" errors="0" time="">
+<testsuites tests="48" failures="0" disabled="0" errors="10" time="48" name="">
+	<testsuite name="addTest" tests="1" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="addTest" />
 	</testsuite>
 	<testsuite name="SetDtatTest" tests="1" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="SetDtatTest" />
 	</testsuite>
-	<testsuite name="SetGlobalTestTest" tests="0" failures="" disabled="" errors="0" time="">
+	<testsuite name="SetGlobalTestTest" tests="2" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="SetGlobalTestTest" />
 		<testcase name="case 2" status="run" time="" classname="SetGlobalTestTest" />
 	</testsuite>
@@ -21,14 +21,12 @@
 			<failure message="case 3: return expected 353 but 0" type="error">&lt;!case 3: return expected 353 but 0&gt;</failure>
 		</testcase>
 	</testsuite>
-	<testsuite name="FunctionPtrStructTest" tests="4" failures="" disabled="" errors="8" time="">
+	<testsuite name="FunctionPtrStructTest" tests="2" failures="" disabled="" errors="2" time="">
 		<testcase name="case 2" status="run" time="" classname="FunctionPtrStructTest">
 			<failure message="case 2: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 2: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 2: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 2: 被测试代码产生不明错误导致测试中断&gt;</failure>
 		</testcase>
 		<testcase name="case 3" status="run" time="" classname="FunctionPtrStructTest">
 			<failure message="case 3: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 3: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 3: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 3: 被测试代码产生不明错误导致测试中断&gt;</failure>
 		</testcase>
 	</testsuite>
 	<testsuite name="FunctionPtrTestTest" tests="0" failures="" disabled="" errors="0" time="">
@@ -61,7 +59,7 @@
 		<testcase name="case 2" status="run" time="" classname="FunctionPtrTest_2Test" />
 	</testsuite>
 	<testsuite name="GlobalTest_2Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="localIO_2Test" tests="0" failures="" disabled="" errors="0" time="">
+	<testsuite name="localIO_2Test" tests="2" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="localIO_2Test" />
 		<testcase name="case 2" status="run" time="" classname="localIO_2Test" />
 	</testsuite>
@@ -83,7 +81,7 @@
 		<testcase name="case 3" status="run" time="" classname="CallScriptTest_3Test" />
 		<testcase name="case 4" status="run" time="" classname="CallScriptTest_3Test" />
 	</testsuite>
-	<testsuite name="FunctionPtrStruct_3Test" tests="0" failures="" disabled="" errors="0" time="">
+	<testsuite name="FunctionPtrStruct_3Test" tests="2" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="FunctionPtrStruct_3Test" />
 		<testcase name="case 2" status="run" time="" classname="FunctionPtrStruct_3Test" />
 	</testsuite>
@@ -92,9 +90,10 @@
 		<testcase name="case 2" status="run" time="" classname="FunctionPtrTest_3Test" />
 	</testsuite>
 	<testsuite name="GlobalTest_3Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="localIO_3Test" tests="2" failures="" disabled="" errors="0" time="">
+	<testsuite name="localIO_3Test" tests="3" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="localIO_3Test" />
 		<testcase name="case 2" status="run" time="" classname="localIO_3Test" />
+		<testcase name="case 3" status="run" time="" classname="localIO_3Test" />
 	</testsuite>
 	<testsuite name="MockTest_3Test" tests="3" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="MockTest_3Test" />
@@ -109,6 +108,22 @@
 		<testcase name="case 5" status="run" time="" classname="pow_3Test" />
 		<testcase name="case 6" status="run" time="" classname="pow_3Test" />
 	</testsuite>
+	<testsuite name="cmac_sd5887_init_chip_phase1Test" tests="2" failures="" disabled="" errors="2" time="">
+		<testcase name="case 2" status="run" time="" classname="cmac_sd5887_init_chip_phase1Test">
+			<failure message="case 2: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 2: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="cmac_sd5887_init_chip_phase1Test">
+			<failure message="case 3: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 3: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="test082Test" tests="2" failures="" disabled="" errors="2" time="">
+		<testcase name="case 2" status="run" time="" classname="test082Test">
+			<failure message="case 2: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 2: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="test082Test">
+			<failure message="case 3: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 3: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+		</testcase>
+	</testsuite>
 	<testsuite name="GetInfoTest" tests="0" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="GetInfoTest" />
 	</testsuite>
@@ -119,33 +134,43 @@
 		<testcase name="case 1" status="run" time="" classname="ParamFuncptrTest" />
 		<testcase name="case 2" status="run" time="" classname="ParamFuncptrTest" />
 	</testsuite>
-	<testsuite name="Test001Test" tests="5" failures="" disabled="" errors="0" time="">
+	<testsuite name="Test001Test" tests="6" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="Test001Test" />
 		<testcase name="case 2" status="run" time="" classname="Test001Test" />
 		<testcase name="case 3" status="run" time="" classname="Test001Test" />
 		<testcase name="case 4" status="run" time="" classname="Test001Test" />
 		<testcase name="case 5" status="run" time="" classname="Test001Test" />
+		<testcase name="case 6" status="run" time="" classname="Test001Test" />
 	</testsuite>
-	<testsuite name="Test002Test" tests="3" failures="" disabled="" errors="0" time="">
+	<testsuite name="Test002Test" tests="0" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="Test002Test" />
 		<testcase name="case 2" status="run" time="" classname="Test002Test" />
 		<testcase name="case 3" status="run" time="" classname="Test002Test" />
+		<testcase name="case 4" status="run" time="" classname="Test002Test" />
 	</testsuite>
 	<testsuite name="Test003Test" tests="0" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="Test003Test" />
+		<testcase name="case 2" status="run" time="" classname="Test003Test" />
+		<testcase name="case 3" status="run" time="" classname="Test003Test" />
+		<testcase name="case 4" status="run" time="" classname="Test003Test" />
 	</testsuite>
-	<testsuite name="Test004Test" tests="6" failures="" disabled="" errors="12" time="">
-		<testcase name="case 2" status="run" time="" classname="Test004Test">
-			<failure message="case 2: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 2: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 2: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 2: 被测试代码产生不明错误导致测试中断&gt;</failure>
+	<testsuite name="Test004Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="Test004Test" />
+		<testcase name="case 2" status="run" time="" classname="Test004Test" />
+		<testcase name="case 3" status="run" time="" classname="Test004Test" />
+	</testsuite>
+	<testsuite name="subTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="subTest" />
+	</testsuite>
+	<testsuite name="testTest" tests="1" failures="" disabled="" errors="1" time="">
+		<testcase name="case 1" status="run" time="" classname="testTest">
+			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
 		</testcase>
-		<testcase name="case 3" status="run" time="" classname="Test004Test">
-			<failure message="case 3: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 3: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 3: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 3: 被测试代码产生不明错误导致测试中断&gt;</failure>
-		</testcase>
-		<testcase name="case 4" status="run" time="" classname="Test004Test">
-			<failure message="case 4: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 4: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 4: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 4: 被测试代码产生不明错误导致测试中断&gt;</failure>
-		</testcase>
+	</testsuite>
+	<testsuite name="test001Test" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="test002Test" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="test003Test" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="test004Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="test004Test" />
 	</testsuite>
 </testsuites>
