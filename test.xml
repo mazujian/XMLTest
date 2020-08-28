@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testsuites tests="42" failures="0" disabled="0" errors="16" time="42" name="">
+<testsuites tests="32" failures="0" disabled="0" errors="0" time="32" name="">
 	<testsuite name="addTest" tests="0" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="addTest" />
 	</testsuite>
@@ -90,70 +90,6 @@
 		<testcase name="case 5" status="run" time="" classname="pow_3Test" />
 		<testcase name="case 6" status="run" time="" classname="pow_3Test" />
 	</testsuite>
-	<testsuite name="cmac_sd5887_init_chip_phase1Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="test082Test" tests="2" failures="" disabled="" errors="4" time="">
-		<testcase name="case 1" status="run" time="" classname="test082Test">
-			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
-		</testcase>
-	</testsuite>
-	<testsuite name="gammafnTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="gammafnTest" />
-		<testcase name="case 2" status="run" time="" classname="gammafnTest" />
-	</testsuite>
-	<testsuite name="icctoclrspcTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_clrspc_numchansTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmgetintTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmprof_copyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmprof_createTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmprof_createTest" />
-	</testsuite>
-	<testsuite name="jas_cmprof_createfromclrspcTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmprof_createfromclrspcTest" />
-	</testsuite>
-	<testsuite name="jas_cmprof_createfromiccprofTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmprof_createsyccTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmprof_createsyccTest" />
-	</testsuite>
-	<testsuite name="jas_cmprof_destroyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmputintTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxformseq_appendcnvtTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmpxformseq_appendcnvtTest" />
-	</testsuite>
-	<testsuite name="jas_cmpxformseq_appendTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxformseq_copyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxformseq_createTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmpxformseq_createTest" />
-	</testsuite>
-	<testsuite name="jas_cmpxformseq_deleteTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxformseq_destroyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxformseq_insertpxformTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxformseq_resizeTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxform_copyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmpxform_create0Test" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmpxform_create0Test" />
-	</testsuite>
-	<testsuite name="jas_cmpxform_createshapmatTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmpxform_createshapmatTest" />
-	</testsuite>
-	<testsuite name="jas_cmpxform_destroyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmshapmatlut_cleanupTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmshapmatlut_initTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmshapmatlut_invertTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmshapmatlut_lookupTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmshapmatlut_setTest" tests="2" failures="" disabled="" errors="4" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmshapmatlut_setTest">
-			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
-		</testcase>
-	</testsuite>
-	<testsuite name="jas_cmshapmat_applyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmshapmat_destroyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmshapmat_invmatTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_cmshapmat_invmatTest" />
-	</testsuite>
-	<testsuite name="jas_cmxform_applyTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_cmxform_createTest" tests="0" failures="" disabled="" errors="0" time="" />
 	<testsuite name="GetInfoTest" tests="0" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="GetInfoTest" />
 	</testsuite>
@@ -180,77 +116,4 @@
 		<testcase name="case 1" status="run" time="" classname="Test003Test" />
 	</testsuite>
 	<testsuite name="Test004Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_callocTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_callocTest" />
-	</testsuite>
-	<testsuite name="jas_eprintfTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_eprintfTest" />
-	</testsuite>
-	<testsuite name="jas_getdbglevelTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_getdbglevelTest" />
-	</testsuite>
-	<testsuite name="jas_memdumpTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_memdumpTest" />
-	</testsuite>
-	<testsuite name="jas_setdbglevelTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_setdbglevelTest" />
-	</testsuite>
-	<testsuite name="jas_getoptTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_getoptTest" />
-	</testsuite>
-	<testsuite name="jas_iccattrtab_copyTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_iccattrtab_copyTest" />
-		<testcase name="case 2" status="run" time="" classname="jas_iccattrtab_copyTest" />
-		<testcase name="case 3" status="run" time="" classname="jas_iccattrtab_copyTest" />
-	</testsuite>
-	<testsuite name="jas_iccattrtab_createTest" tests="2" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_iccattrtab_createTest" />
-		<testcase name="case 2" status="run" time="" classname="jas_iccattrtab_createTest" />
-		<testcase name="case 3" status="run" time="" classname="jas_iccattrtab_createTest" />
-	</testsuite>
-	<testsuite name="jas_iccattrtab_resizeTest" tests="2" failures="" disabled="" errors="4" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_iccattrtab_resizeTest">
-			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
-		</testcase>
-	</testsuite>
-	<testsuite name="jas_iccattrvalinfo_lookupTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_iccattrvalinfo_lookupTest" />
-	</testsuite>
-	<testsuite name="jas_iccattrval_createTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_iccattrval_createTest" />
-	</testsuite>
-	<testsuite name="jas_icccurv_inputTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_icclut16_inputTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_image_createTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_image_createTest" />
-	</testsuite>
-	<testsuite name="jas_initTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_initTest" />
-	</testsuite>
-	<testsuite name="jas_matrix_asrTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_strdupTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_strdupTest" />
-	</testsuite>
-	<testsuite name="jas_stream_initbufTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_taginfos_lookupTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="jas_tmr_startTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="jas_tmr_startTest" />
-	</testsuite>
-	<testsuite name="jp2_bpcc_getdataTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="subTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="subTest" />
-	</testsuite>
-	<testsuite name="testTest" tests="2" failures="" disabled="" errors="4" time="">
-		<testcase name="case 1" status="run" time="" classname="testTest">
-			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-			<failure message="case 1: 被测试代码产生不明错误导致测试中断" type="error">&lt;!case 1: 被测试代码产生不明错误导致测试中断&gt;</failure>
-		</testcase>
-	</testsuite>
-	<testsuite name="test001Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="test002Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="test003Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="test004Test" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="test004Test" />
-	</testsuite>
 </testsuites>
