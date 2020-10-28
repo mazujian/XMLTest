@@ -1,129 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testsuites tests="22" failures="0" disabled="0" errors="13" time="22" name="">
-	<testsuite name="test082Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="cmac_sd5887_init_chip_phase1Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="CallScriptTest_2Test" tests="4" failures="" disabled="" errors="3" time="">
-		<testcase name="case 1" status="run" time="" classname="CallScriptTest_2Test" />
-		<testcase name="case 2" status="run" time="" classname="CallScriptTest_2Test">
-			<failure message="case 2: return expected 2 but 0" type="error">&lt;!case 2: return expected 2 but 0&gt;</failure>
-		</testcase>
-		<testcase name="case 3" status="run" time="" classname="CallScriptTest_2Test">
-			<failure message="case 3: return expected 3 but 0" type="error">&lt;!case 3: return expected 3 but 0&gt;</failure>
-		</testcase>
-		<testcase name="case 4" status="run" time="" classname="CallScriptTest_2Test">
-			<failure message="case 4: return expected 4 but 0" type="error">&lt;!case 4: return expected 4 but 0&gt;</failure>
-		</testcase>
+<testsuites tests="11" failures="0" disabled="0" errors="5" time="11" name="">
+	<testsuite name="addTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="addTest" />
 	</testsuite>
-	<testsuite name="FunctionPtrTest_2Test" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="FunctionPtrTest_2Test" />
-		<testcase name="case 2" status="run" time="" classname="FunctionPtrTest_2Test" />
-		<testcase name="case 3" status="run" time="" classname="FunctionPtrTest_2Test" />
-	</testsuite>
-	<testsuite name="pow_2Test" tests="4" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="pow_2Test" />
-		<testcase name="case 2" status="run" time="" classname="pow_2Test" />
-		<testcase name="case 3" status="run" time="" classname="pow_2Test" />
-		<testcase name="case 4" status="run" time="" classname="pow_2Test" />
-	</testsuite>
-	<testsuite name="FunctionPtrStruct_2Test" tests="1" failures="" disabled="" errors="1" time="">
-		<testcase name="case 3" status="run" time="" classname="FunctionPtrStruct_2Test">
-			<failure message="case 3: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 3: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-		</testcase>
-		<testcase name="case 4" status="run" time="" classname="FunctionPtrStruct_2Test" />
-	</testsuite>
-	<testsuite name="ifwtestTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="ifwtestTest" />
-		<testcase name="case 2" status="run" time="" classname="ifwtestTest" />
-		<testcase name="case 3" status="run" time="" classname="ifwtestTest" />
-	</testsuite>
-	<testsuite name="localIO_2Test" tests="4" failures="" disabled="" errors="4" time="">
-		<testcase name="case 1" status="run" time="" classname="localIO_2Test">
-			<failure message="case 1: return expected 1 but 102400" type="error">&lt;!case 1: return expected 1 but 102400&gt;</failure>
-		</testcase>
-		<testcase name="case 2" status="run" time="" classname="localIO_2Test">
-			<failure message="case 2: return expected 2 but 204800" type="error">&lt;!case 2: return expected 2 but 204800&gt;</failure>
-		</testcase>
-		<testcase name="case 3" status="run" time="" classname="localIO_2Test">
-			<failure message="case 3: return expected 3 but 307200" type="error">&lt;!case 3: return expected 3 but 307200&gt;</failure>
-		</testcase>
-		<testcase name="case 4" status="run" time="" classname="localIO_2Test">
-			<failure message="case 4: return expected 4 but 409600" type="error">&lt;!case 4: return expected 4 but 409600&gt;</failure>
-		</testcase>
-	</testsuite>
-	<testsuite name="MockTest_2Test" tests="4" failures="" disabled="" errors="4" time="">
-		<testcase name="case 1" status="run" time="" classname="MockTest_2Test">
-			<failure message="case 1: return expected 1 but 100" type="error">&lt;!case 1: return expected 1 but 100&gt;</failure>
-		</testcase>
-		<testcase name="case 2" status="run" time="" classname="MockTest_2Test">
-			<failure message="case 2: return expected 4 but 100" type="error">&lt;!case 2: return expected 4 but 100&gt;</failure>
-		</testcase>
-		<testcase name="case 3" status="run" time="" classname="MockTest_2Test">
-			<failure message="case 3: return expected 27 but 100" type="error">&lt;!case 3: return expected 27 but 100&gt;</failure>
-		</testcase>
-		<testcase name="case 4" status="run" time="" classname="MockTest_2Test">
-			<failure message="case 4: return expected 0 but 100" type="error">&lt;!case 4: return expected 0 but 100&gt;</failure>
-		</testcase>
-	</testsuite>
-	<testsuite name="GlobalTest_2Test" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="GlobalTest_2Test" />
-		<testcase name="case 2" status="run" time="" classname="GlobalTest_2Test" />
-		<testcase name="case 3" status="run" time="" classname="GlobalTest_2Test" />
-		<testcase name="case 4" status="run" time="" classname="GlobalTest_2Test" />
-	</testsuite>
-	<testsuite name="test001Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="test004Test" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="test004Test" />
-	</testsuite>
-	<testsuite name="subTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="subTest" />
-	</testsuite>
-	<testsuite name="test002Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="testTest" tests="1" failures="" disabled="" errors="1" time="">
-		<testcase name="case 1" status="run" time="" classname="testTest">
-			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
-		</testcase>
-	</testsuite>
-	<testsuite name="test003Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="Test003Test" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="Test003Test" />
-	</testsuite>
-	<testsuite name="ParamFuncptrTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="Test001Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="Test002Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="Test004Test" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="GetInfoTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="LocalInoutTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="LocalInoutTest" />
-	</testsuite>
-	<testsuite name="powTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="powTest" />
-	</testsuite>
-	<testsuite name="localIOTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="localIOTest" />
-	</testsuite>
-	<testsuite name="FunctionPtrStructTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="FunctionPtrTestTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="FunctionPtrTestTest" />
-	</testsuite>
-	<testsuite name="CallScriptTestTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="GlobalTestTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="GlobalTestTest" />
-	</testsuite>
-	<testsuite name="MockTestTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="MockTestTest" />
+	<testsuite name="SetDtatTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="SetDtatTest" />
 	</testsuite>
 	<testsuite name="SetGlobalTestTest" tests="0" failures="" disabled="" errors="0" time="">
 		<testcase name="case 1" status="run" time="" classname="SetGlobalTestTest" />
 	</testsuite>
-	<testsuite name="addTest" tests="0" failures="" disabled="" errors="0" time="">
-		<testcase name="case 1" status="run" time="" classname="addTest" />
+	<testsuite name="CallScriptTestTest" tests="1" failures="" disabled="" errors="1" time="">
+		<testcase name="case 1" status="run" time="" classname="CallScriptTestTest">
+			<failure message="case 1: signal SIGSEGV: Invalid memory reference, stop." type="error">&lt;!case 1: signal SIGSEGV: Invalid memory reference, stop.&gt;</failure>
+		</testcase>
 	</testsuite>
-	<testsuite name="SetDtatTest" tests="0" failures="" disabled="" errors="0" time="" />
-	<testsuite name="pow_3Test" tests="4" failures="" disabled="" errors="0" time="">
+	<testsuite name="localIOTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="localIOTest" />
+	</testsuite>
+	<testsuite name="CallScriptTest_3Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="CallScriptTest_3Test" />
+	</testsuite>
+	<testsuite name="FunctionPtrStruct_3Test" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="FunctionPtrTest_3Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrTest_3Test" />
+	</testsuite>
+	<testsuite name="GlobalTest_3Test" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="GlobalTest_3Test" />
+		<testcase name="case 2" status="run" time="" classname="GlobalTest_3Test" />
+		<testcase name="case 3" status="run" time="" classname="GlobalTest_3Test" />
+		<testcase name="case 4" status="run" time="" classname="GlobalTest_3Test" />
+	</testsuite>
+	<testsuite name="localIO_3Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="localIO_3Test" />
+	</testsuite>
+	<testsuite name="MockTest_3Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="MockTest_3Test" />
+	</testsuite>
+	<testsuite name="pow_3Test" tests="4" failures="" disabled="" errors="2" time="">
 		<testcase name="case 1" status="run" time="" classname="pow_3Test" />
 		<testcase name="case 2" status="run" time="" classname="pow_3Test" />
-		<testcase name="case 3" status="run" time="" classname="pow_3Test" />
-		<testcase name="case 4" status="run" time="" classname="pow_3Test" />
+		<testcase name="case 3" status="run" time="" classname="pow_3Test">
+			<failure message="case 3: return expected 3 but 4" type="error">&lt;!case 3: return expected 3 but 4&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="pow_3Test">
+			<failure message="case 4: return expected 4 but 27" type="error">&lt;!case 4: return expected 4 but 27&gt;</failure>
+		</testcase>
 	</testsuite>
-	<testsuite name="CallScriptTest_3Test" tests="0" failures="" disabled="" errors="0" time="" />
+	<testsuite name="FunctionPtrTest_2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="FunctionPtrTest_2Test" />
+	</testsuite>
+	<testsuite name="GlobalTest_2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="GlobalTest_2Test" />
+	</testsuite>
+	<testsuite name="localIO_2Test" tests="2" failures="" disabled="" errors="2" time="">
+		<testcase name="case 1" status="run" time="" classname="localIO_2Test">
+			<failure message="case 1: return expected 0 but 102400" type="error">&lt;!case 1: return expected 0 but 102400&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="localIO_2Test">
+			<failure message="case 2: return expected 0 but 1" type="error">&lt;!case 2: return expected 0 but 1&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="MockTest_2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="MockTest_2Test" />
+	</testsuite>
+	<testsuite name="pow_2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="pow_2Test" />
+	</testsuite>
 </testsuites>

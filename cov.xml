@@ -1,4 +1,407 @@
 <?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="1.0" branch-rate="1.0" lines-covered ="0" lines-valid ="0" branches-covered ="0" branches-valid ="0" complexity="0.0" timestamp="0" version="">
-	<packages />
+<coverage line-rate="0.186147" branch-rate="0.139394" lines-covered ="86" lines-valid ="462" branches-covered ="46" branches-valid ="330" complexity="0.0" timestamp="0" version="">
+	<packages>
+		<package name="_Test.c" line-rate="0.132653" branch-rate="0.083333" complexity="0.0">
+			<classes name="_Test.c" filename="_Test.c" line-rate="0.132653" branch-rate="0.083333" complexity="0.0">
+				<methods />
+				<lines>
+					<line number="19" hits="0" branch="false" />
+					<line number="20" hits="0" branch="false" />
+					<line number="22" hits="0" branch="false" />
+					<line number="23" hits="0" branch="false" />
+					<line number="26" hits="0" branch="false" />
+					<line number="25" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="* pInt1==* pInt2" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="31" hits="0" branch="false" />
+					<line number="27" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="* pInt1&gt;* pInt2" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="41" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="Fun!=((void*)0)" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="44" hits="0" branch="false" />
+					<line number="49" hits="0" branch="false" />
+					<line number="52" hits="0" branch="false" />
+					<line number="47" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="Fun2!=((void*)0)" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="57" hits="0" branch="false" />
+					<line number="58" hits="0" branch="false" />
+					<line number="59" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="recv_len&gt;10" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="62" hits="0" branch="false" />
+					<line number="66" hits="0" branch="false" />
+					<line number="68" hits="0" branch="false" />
+					<line number="76" hits="1" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="1" type="pMyData-&gt;ptr==&amp; gSData" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="78" hits="1" branch="false" />
+					<line number="84" hits="0" branch="false" />
+					<line number="90" hits="0" branch="false" />
+					<line number="93" hits="0" branch="false" />
+					<line number="82" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="pMyData-&gt;ptr==gpSData" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="88" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="3" type="pMyData-&gt;pptr==&amp; gpSData" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="101" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="TestB==50" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="108" hits="0" branch="false" />
+					<line number="103" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="staticGlobal==30" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="106" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="3" type="SetGlobalTest(a)&gt;=100" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="119" hits="0" branch="false" />
+					<line number="121" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="g==0" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="127" hits="0" branch="false" />
+					<line number="131" hits="0" branch="false" />
+					<line number="135" hits="0" branch="false" />
+					<line number="125" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="g==1" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="142" hits="0" branch="false" />
+					<line number="129" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="3" type="e==0" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="133" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="4" type="e==1" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="140" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="5" type="i&lt;e" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="152" hits="2" branch="false" />
+					<line number="154" hits="2" branch="false" />
+					<line number="155" hits="2" branch="false" />
+					<line number="156" hits="2" branch="false" />
+					<line number="0" hits="1" branch="false" />
+					<line number="158" hits="3" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="a&lt;=5" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="0" hits="2" branch="false" />
+					<line number="176" hits="2" branch="false" />
+					<line number="161" hits="32768" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="2" type="1" coverage="100%" />
+						</conditions>
+					</line>
+				</lines>
+			</classes>
+		</package>
+		<package name="_Test_2.c" line-rate="0.265306" branch-rate="0.180556" complexity="0.0">
+			<classes name="_Test_2.c" filename="_Test_2.c" line-rate="0.265306" branch-rate="0.180556" complexity="0.0">
+				<methods />
+				<lines>
+					<line number="27" hits="4" branch="false" />
+					<line number="28" hits="4" branch="false" />
+					<line number="30" hits="4" branch="false" />
+					<line number="31" hits="2" branch="false" />
+					<line number="34" hits="1" branch="false" />
+					<line number="33" hits="4" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="* pInt1==* pInt2" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="39" hits="0" branch="false" />
+					<line number="35" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="* pInt1&gt;* pInt2" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="49" hits="3" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="1" type="Fun!=((void*)0)" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="52" hits="1" branch="false" />
+					<line number="57" hits="0" branch="false" />
+					<line number="60" hits="1" branch="false" />
+					<line number="55" hits="3" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="2" type="Fun2!=((void*)0)" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="65" hits="0" branch="false" />
+					<line number="66" hits="0" branch="false" />
+					<line number="67" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="recv_len&gt;10" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="70" hits="0" branch="false" />
+					<line number="74" hits="0" branch="false" />
+					<line number="76" hits="0" branch="false" />
+					<line number="83" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="pMyData-&gt;ptr==&amp; gSData_2" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="85" hits="0" branch="false" />
+					<line number="91" hits="0" branch="false" />
+					<line number="97" hits="0" branch="false" />
+					<line number="100" hits="0" branch="false" />
+					<line number="89" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="pMyData-&gt;ptr==gpSData_2" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="95" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="3" type="pMyData-&gt;pptr==&amp; gpSData_2" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="108" hits="2" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="TestB==50" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="115" hits="1" branch="false" />
+					<line number="110" hits="2" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="2" type="staticGlobal==30" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="113" hits="2" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="3" type="SetGlobalTest(a)&gt;=100" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="126" hits="2" branch="false" />
+					<line number="128" hits="3" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="g==0" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="134" hits="2" branch="false" />
+					<line number="138" hits="0" branch="false" />
+					<line number="142" hits="0" branch="false" />
+					<line number="132" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="g==1" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="149" hits="0" branch="false" />
+					<line number="136" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="3" type="e==0" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="140" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="4" type="e==1" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="147" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="5" type="i&lt;e" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="159" hits="4" branch="false" />
+					<line number="161" hits="4" branch="false" />
+					<line number="162" hits="4" branch="false" />
+					<line number="163" hits="4" branch="false" />
+					<line number="0" hits="2" branch="false" />
+					<line number="165" hits="4" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="a&lt;=5" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="0" hits="2" branch="false" />
+					<line number="183" hits="2" branch="false" />
+					<line number="168" hits="4" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="2" type="1" coverage="100%" />
+						</conditions>
+					</line>
+				</lines>
+			</classes>
+		</package>
+		<package name="_Test_3.c" line-rate="0.377551" branch-rate="0.347222" complexity="0.0">
+			<classes name="_Test_3.c" filename="_Test_3.c" line-rate="0.377551" branch-rate="0.347222" complexity="0.0">
+				<methods />
+				<lines>
+					<line number="19" hits="4" branch="false" />
+					<line number="20" hits="4" branch="false" />
+					<line number="22" hits="4" branch="false" />
+					<line number="23" hits="2" branch="false" />
+					<line number="26" hits="1" branch="false" />
+					<line number="25" hits="4" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="* pInt1==* pInt2" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="31" hits="0" branch="false" />
+					<line number="27" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="2" type="* pInt1&gt;* pInt2" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="41" hits="3" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="1" type="Fun!=((void*)0)" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="44" hits="1" branch="false" />
+					<line number="49" hits="0" branch="false" />
+					<line number="52" hits="1" branch="false" />
+					<line number="47" hits="3" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="2" type="Fun2!=((void*)0)" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="57" hits="0" branch="false" />
+					<line number="58" hits="0" branch="false" />
+					<line number="59" hits="0" branch="true" condition-coverage="0%">
+						<conditions>
+							<condition number="1" type="recv_len&gt;10" coverage="0%" />
+						</conditions>
+					</line>
+					<line number="62" hits="0" branch="false" />
+					<line number="66" hits="0" branch="false" />
+					<line number="68" hits="0" branch="false" />
+					<line number="75" hits="1" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="1" type="pMyData-&gt;ptr==&amp; gSData_3" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="77" hits="1" branch="false" />
+					<line number="83" hits="0" branch="false" />
+					<line number="89" hits="1" branch="false" />
+					<line number="92" hits="0" branch="false" />
+					<line number="81" hits="1" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="2" type="pMyData-&gt;ptr==gpSData_3" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="87" hits="1" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="3" type="pMyData-&gt;pptr==&amp; gpSData_3" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="100" hits="7" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="TestB==50" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="107" hits="6" branch="false" />
+					<line number="102" hits="9" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="2" type="staticGlobal==30" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="105" hits="9" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="3" type="SetGlobalTest(a)&gt;=100" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="118" hits="8" branch="false" />
+					<line number="120" hits="9" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="g==0" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="126" hits="2" branch="false" />
+					<line number="130" hits="3" branch="false" />
+					<line number="134" hits="2" branch="false" />
+					<line number="124" hits="6" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="2" type="g==1" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="141" hits="0" branch="false" />
+					<line number="128" hits="6" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="3" type="e==0" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="132" hits="6" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="4" type="e==1" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="139" hits="12" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="5" type="i&lt;e" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="151" hits="2" branch="false" />
+					<line number="153" hits="2" branch="false" />
+					<line number="154" hits="2" branch="false" />
+					<line number="155" hits="2" branch="false" />
+					<line number="0" hits="1" branch="false" />
+					<line number="157" hits="3" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="1" type="a&lt;=5" coverage="100%" />
+						</conditions>
+					</line>
+					<line number="0" hits="2" branch="false" />
+					<line number="175" hits="2" branch="false" />
+					<line number="160" hits="32768" branch="true" condition-coverage="100%">
+						<conditions>
+							<condition number="2" type="1" coverage="100%" />
+						</conditions>
+					</line>
+				</lines>
+			</classes>
+		</package>
+		<package name="_Test2.c" line-rate="0.500000" branch-rate="0.250000" complexity="0.0">
+			<classes name="_Test2.c" filename="_Test2.c" line-rate="0.500000" branch-rate="0.250000" complexity="0.0">
+				<methods />
+				<lines>
+					<line number="13" hits="1" branch="true" condition-coverage="50%">
+						<conditions>
+							<condition number="1" type="i" coverage="50%" />
+						</conditions>
+					</line>
+					<line number="15" hits="1" branch="false" />
+					<line number="17" hits="0" branch="false" />
+					<line number="22" hits="2" branch="false" />
+					<line number="0" hits="2" branch="false" />
+					<line number="24" hits="2" branch="false" />
+					<line number="29" hits="2" branch="false" />
+				</lines>
+			</classes>
+		</package>
+	</packages>
 </coverage>
