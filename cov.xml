@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.008628" branch-rate="0.006880" lines-covered ="2928" lines-valid ="339360" branches-covered ="1337" branches-valid ="194320" complexity="0.0" timestamp="0" version="">
+<coverage line-rate="0.004477" branch-rate="0.004614" lines-covered ="2442" lines-valid ="545400" branches-covered ="1441" branches-valid ="312300" complexity="0.0" timestamp="0" version="">
 	<packages>
-		<package name="sources/3rdparty/libjasper" line-rate="0.011587" branch-rate="0.009242" complexity="0.0">
+		<package name="sources/3rdparty/libjasper" line-rate="0.004538" branch-rate="0.004627" complexity="0.0">
 			<classes name="sources/3rdparty/libjasper/jas_tvp.c" filename="sources/3rdparty/libjasper/jas_tvp.c" line-rate="0.000000" branch-rate="0.000000" complexity="0.0">
 				<methods />
 				<lines>
@@ -3204,7 +3204,7 @@
 					<line number="479" hits="0" branch="false" />
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/_Test2.c" filename="sources/3rdparty/libjasper/_Test2.c" line-rate="0.632653" branch-rate="0.571429" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/_Test2.c" filename="sources/3rdparty/libjasper/_Test2.c" line-rate="1.000000" branch-rate="1.000000" complexity="0.0">
 				<methods />
 				<lines>
 					<line number="13" hits="3" branch="true" condition-coverage="100%">
@@ -3226,7 +3226,7 @@
 					<line number="66" hits="0" branch="false" />
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/jpc_cs.c" filename="sources/3rdparty/libjasper/jpc_cs.c" line-rate="0.002442" branch-rate="0.000000" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/jpc_cs.c" filename="sources/3rdparty/libjasper/jpc_cs.c" line-rate="0.000000" branch-rate="0.000000" complexity="0.0">
 				<methods />
 				<lines>
 					<line number="217" hits="0" branch="true" condition-coverage="0%">
@@ -3756,8 +3756,8 @@
 							<condition number="2" type="i&lt;cod-&gt;compparms.numrlvls" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="654" hits="2" branch="false" />
-					<line number="655" hits="2" branch="false" />
+					<line number="654" hits="0" branch="false" />
+					<line number="655" hits="0" branch="false" />
 					<line number="660" hits="0" branch="false" />
 					<line number="661" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
@@ -11546,17 +11546,17 @@
 					<line number="0" hits="0" branch="false" />
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/_Test.c" filename="sources/3rdparty/libjasper/_Test.c" line-rate="0.425656" branch-rate="0.297619" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/_Test.c" filename="sources/3rdparty/libjasper/_Test.c" line-rate="0.000000" branch-rate="0.000000" complexity="0.0">
 				<methods />
 				<lines>
-					<line number="19" hits="4" branch="false" />
-					<line number="20" hits="4" branch="false" />
-					<line number="22" hits="4" branch="false" />
-					<line number="23" hits="2" branch="false" />
-					<line number="26" hits="1" branch="false" />
-					<line number="25" hits="4" branch="true" condition-coverage="100%">
+					<line number="19" hits="0" branch="false" />
+					<line number="20" hits="0" branch="false" />
+					<line number="22" hits="0" branch="false" />
+					<line number="23" hits="0" branch="false" />
+					<line number="26" hits="0" branch="false" />
+					<line number="25" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="* pInt1==* pInt2" coverage="100%" />
+							<condition number="1" type="* pInt1==* pInt2" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="31" hits="0" branch="false" />
@@ -11565,17 +11565,17 @@
 							<condition number="2" type="* pInt1&gt;* pInt2" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="41" hits="3" branch="true" condition-coverage="50%">
+					<line number="41" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="Fun!=((void*)0)" coverage="50%" />
+							<condition number="1" type="Fun!=((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="44" hits="1" branch="false" />
+					<line number="44" hits="0" branch="false" />
 					<line number="49" hits="0" branch="false" />
-					<line number="52" hits="1" branch="false" />
-					<line number="47" hits="3" branch="true" condition-coverage="50%">
+					<line number="52" hits="0" branch="false" />
+					<line number="47" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="Fun2!=((void*)0)" coverage="50%" />
+							<condition number="2" type="Fun2!=((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="57" hits="0" branch="false" />
@@ -11588,23 +11588,23 @@
 					<line number="62" hits="0" branch="false" />
 					<line number="66" hits="0" branch="false" />
 					<line number="68" hits="0" branch="false" />
-					<line number="76" hits="5" branch="true" condition-coverage="100%">
+					<line number="76" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="pMyData-&gt;ptr==&amp; gSData" coverage="100%" />
+							<condition number="1" type="pMyData-&gt;ptr==&amp; gSData" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="78" hits="4" branch="false" />
-					<line number="84" hits="2" branch="false" />
-					<line number="90" hits="3" branch="false" />
-					<line number="93" hits="2" branch="false" />
-					<line number="82" hits="6" branch="true" condition-coverage="100%">
+					<line number="78" hits="0" branch="false" />
+					<line number="84" hits="0" branch="false" />
+					<line number="90" hits="0" branch="false" />
+					<line number="93" hits="0" branch="false" />
+					<line number="82" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="pMyData-&gt;ptr==gpSData" coverage="100%" />
+							<condition number="2" type="pMyData-&gt;ptr==gpSData" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="88" hits="3" branch="true" condition-coverage="100%">
+					<line number="88" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="3" type="pMyData-&gt;pptr==&amp; gpSData" coverage="100%" />
+							<condition number="3" type="pMyData-&gt;pptr==&amp; gpSData" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="101" hits="0" branch="true" condition-coverage="0%">
@@ -11623,13 +11623,13 @@
 							<condition number="3" type="SetGlobalTest(a)&gt;=100" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="119" hits="2" branch="false" />
-					<line number="121" hits="3" branch="true" condition-coverage="100%">
+					<line number="119" hits="0" branch="false" />
+					<line number="121" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="g==0" coverage="100%" />
+							<condition number="1" type="g==0" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="127" hits="2" branch="false" />
+					<line number="127" hits="0" branch="false" />
 					<line number="131" hits="0" branch="false" />
 					<line number="135" hits="0" branch="false" />
 					<line number="125" hits="0" branch="true" condition-coverage="0%">
@@ -11653,19 +11653,19 @@
 							<condition number="5" type="i&lt;e" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="152" hits="2" branch="false" />
-					<line number="154" hits="2" branch="false" />
-					<line number="155" hits="2" branch="false" />
-					<line number="156" hits="2" branch="false" />
-					<line number="0" hits="1" branch="false" />
-					<line number="158" hits="1" branch="true" condition-coverage="50%">
+					<line number="152" hits="0" branch="false" />
+					<line number="154" hits="0" branch="false" />
+					<line number="155" hits="0" branch="false" />
+					<line number="156" hits="0" branch="false" />
+					<line number="0" hits="0" branch="false" />
+					<line number="158" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="a&lt;=5" coverage="50%" />
+							<condition number="1" type="a&lt;=5" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="0" hits="0" branch="false" />
 					<line number="176" hits="0" branch="false" />
-					<line number="161" hits="1" branch="true" condition-coverage="0%">
+					<line number="161" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="2" type="1" coverage="0%" />
 						</conditions>
@@ -12545,48 +12545,48 @@
 					<line number="978" hits="0" branch="false" />
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/_Test_2.c" filename="sources/3rdparty/libjasper/_Test_2.c" line-rate="0.541209" branch-rate="0.360902" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/_Test_2.c" filename="sources/3rdparty/libjasper/_Test_2.c" line-rate="0.000000" branch-rate="0.000000" complexity="0.0">
 				<methods />
 				<lines>
-					<line number="11" hits="3" branch="true" condition-coverage="100%">
+					<line number="11" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="(((*(int*)&amp;(status)))&amp;0x7f)==0" coverage="100%" />
+							<condition number="1" type="(((*(int*)&amp;(status)))&amp;0x7f)==0" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="12" hits="2" branch="false" />
-					<line number="13" hits="2" branch="false" />
-					<line number="27" hits="6" branch="false" />
-					<line number="28" hits="6" branch="false" />
-					<line number="30" hits="6" branch="false" />
-					<line number="31" hits="6" branch="false" />
-					<line number="34" hits="3" branch="false" />
-					<line number="33" hits="6" branch="true" condition-coverage="100%">
+					<line number="12" hits="0" branch="false" />
+					<line number="13" hits="0" branch="false" />
+					<line number="27" hits="0" branch="false" />
+					<line number="28" hits="0" branch="false" />
+					<line number="30" hits="0" branch="false" />
+					<line number="31" hits="0" branch="false" />
+					<line number="34" hits="0" branch="false" />
+					<line number="33" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="* pInt1==* pInt2" coverage="100%" />
+							<condition number="1" type="* pInt1==* pInt2" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="39" hits="2" branch="false" />
-					<line number="35" hits="5" branch="true" condition-coverage="100%">
+					<line number="39" hits="0" branch="false" />
+					<line number="35" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="* pInt1&gt;* pInt2" coverage="100%" />
+							<condition number="2" type="* pInt1&gt;* pInt2" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="49" hits="3" branch="true" condition-coverage="50%">
+					<line number="49" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="Fun!=((void*)0)" coverage="50%" />
+							<condition number="1" type="Fun!=((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="52" hits="1" branch="false" />
+					<line number="52" hits="0" branch="false" />
 					<line number="57" hits="0" branch="false" />
-					<line number="60" hits="1" branch="false" />
-					<line number="55" hits="3" branch="true" condition-coverage="50%">
+					<line number="60" hits="0" branch="false" />
+					<line number="55" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="Fun2!=((void*)0)" coverage="50%" />
+							<condition number="2" type="Fun2!=((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="65" hits="2" branch="false" />
-					<line number="66" hits="2" branch="false" />
-					<line number="67" hits="2" branch="true" condition-coverage="0%">
+					<line number="65" hits="0" branch="false" />
+					<line number="66" hits="0" branch="false" />
+					<line number="67" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="1" type="recv_len&gt;10" coverage="0%" />
 						</conditions>
@@ -12594,48 +12594,48 @@
 					<line number="70" hits="0" branch="false" />
 					<line number="74" hits="0" branch="false" />
 					<line number="76" hits="0" branch="false" />
-					<line number="83" hits="4" branch="true" condition-coverage="50%">
+					<line number="83" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="pMyData-&gt;ptr==&amp; gSData_2" coverage="50%" />
+							<condition number="1" type="pMyData-&gt;ptr==&amp; gSData_2" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="85" hits="4" branch="false" />
+					<line number="85" hits="0" branch="false" />
 					<line number="91" hits="0" branch="false" />
-					<line number="97" hits="4" branch="false" />
-					<line number="100" hits="2" branch="false" />
-					<line number="89" hits="5" branch="true" condition-coverage="100%">
+					<line number="97" hits="0" branch="false" />
+					<line number="100" hits="0" branch="false" />
+					<line number="89" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="pMyData-&gt;ptr==gpSData_2" coverage="100%" />
+							<condition number="2" type="pMyData-&gt;ptr==gpSData_2" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="95" hits="3" branch="true" condition-coverage="50%">
+					<line number="95" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="3" type="pMyData-&gt;pptr==&amp; gpSData_2" coverage="50%" />
+							<condition number="3" type="pMyData-&gt;pptr==&amp; gpSData_2" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="108" hits="1" branch="true" condition-coverage="50%">
+					<line number="108" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="TestB==50" coverage="50%" />
+							<condition number="1" type="TestB==50" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="115" hits="1" branch="false" />
+					<line number="115" hits="0" branch="false" />
 					<line number="110" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="2" type="staticGlobal==30" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="113" hits="2" branch="true" condition-coverage="0%">
+					<line number="113" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="3" type="SetGlobalTest(a)&gt;=100" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="126" hits="2" branch="false" />
-					<line number="128" hits="3" branch="true" condition-coverage="100%">
+					<line number="126" hits="0" branch="false" />
+					<line number="128" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="g==0" coverage="100%" />
+							<condition number="1" type="g==0" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="134" hits="2" branch="false" />
+					<line number="134" hits="0" branch="false" />
 					<line number="138" hits="0" branch="false" />
 					<line number="142" hits="0" branch="false" />
 					<line number="132" hits="0" branch="true" condition-coverage="0%">
@@ -12659,26 +12659,26 @@
 							<condition number="5" type="i&lt;e" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="159" hits="2" branch="false" />
-					<line number="161" hits="2" branch="false" />
-					<line number="162" hits="2" branch="false" />
-					<line number="163" hits="2" branch="false" />
-					<line number="0" hits="1" branch="false" />
-					<line number="165" hits="3" branch="true" condition-coverage="100%">
+					<line number="159" hits="0" branch="false" />
+					<line number="161" hits="0" branch="false" />
+					<line number="162" hits="0" branch="false" />
+					<line number="163" hits="0" branch="false" />
+					<line number="0" hits="0" branch="false" />
+					<line number="165" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="a&lt;=5" coverage="100%" />
+							<condition number="1" type="a&lt;=5" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="0" hits="0" branch="false" />
 					<line number="183" hits="0" branch="false" />
-					<line number="168" hits="1" branch="true" condition-coverage="50%">
+					<line number="168" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="1" coverage="50%" />
+							<condition number="2" type="1" coverage="0%" />
 						</conditions>
 					</line>
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/jas_icc.c" filename="sources/3rdparty/libjasper/jas_icc.c" line-rate="0.008641" branch-rate="0.003456" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/jas_icc.c" filename="sources/3rdparty/libjasper/jas_icc.c" line-rate="0.000000" branch-rate="0.000000" complexity="0.0">
 				<methods />
 				<lines>
 					<line number="0" hits="0" branch="false" />
@@ -13386,24 +13386,24 @@
 					<line number="662" hits="0" branch="false" />
 					<line number="663" hits="0" branch="false" />
 					<line number="664" hits="0" branch="false" />
-					<line number="673" hits="7" branch="false" />
-					<line number="674" hits="7" branch="true" condition-coverage="100%">
+					<line number="673" hits="0" branch="false" />
+					<line number="674" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="tab=jas_malloc(sizeof(jas_iccattrtab_t))" coverage="100%" />
+							<condition number="1" type="tab=jas_malloc(sizeof(jas_iccattrtab_t))" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="676" hits="2" branch="false" />
-					<line number="677" hits="1" branch="false" />
-					<line number="678" hits="3" branch="false" />
-					<line number="679" hits="3" branch="false" />
-					<line number="680" hits="4" branch="true" condition-coverage="50%">
+					<line number="676" hits="0" branch="false" />
+					<line number="677" hits="0" branch="false" />
+					<line number="678" hits="0" branch="false" />
+					<line number="679" hits="0" branch="false" />
+					<line number="680" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="jas_iccattrtab_resize(tab,32)" coverage="50%" />
+							<condition number="2" type="jas_iccattrtab_resize(tab,32)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="682" hits="2" branch="false" />
+					<line number="682" hits="0" branch="false" />
 					<line number="685" hits="0" branch="false" />
-					<line number="686" hits="2" branch="false" />
+					<line number="686" hits="0" branch="false" />
 					<line number="684" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="3" type="tab" coverage="0%" />
@@ -18683,7 +18683,7 @@
 					<line number="290" hits="0" branch="false" />
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/jas_cm.c" filename="sources/3rdparty/libjasper/jas_cm.c" line-rate="0.055891" branch-rate="0.024510" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/jas_cm.c" filename="sources/3rdparty/libjasper/jas_cm.c" line-rate="0.000000" branch-rate="0.000000" complexity="0.0">
 				<methods />
 				<lines>
 					<line number="0" hits="0" branch="false" />
@@ -18725,86 +18725,86 @@
 							<condition number="7" type="iccprof" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="178" hits="2802" branch="false" />
-					<line number="179" hits="2674" branch="false" />
-					<line number="180" hits="1409" branch="false" />
-					<line number="181" hits="2494" branch="false" />
-					<line number="182" hits="2582" branch="false" />
-					<line number="183" hits="1338" branch="false" />
-					<line number="184" hits="1330" branch="false" />
-					<line number="186" hits="1294" branch="true" condition-coverage="100%">
+					<line number="178" hits="0" branch="false" />
+					<line number="179" hits="0" branch="false" />
+					<line number="180" hits="0" branch="false" />
+					<line number="181" hits="0" branch="false" />
+					<line number="182" hits="0" branch="false" />
+					<line number="183" hits="0" branch="false" />
+					<line number="184" hits="0" branch="false" />
+					<line number="186" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="prof=jas_cmprof_createfromclrspc((((4)&lt;&lt;8)|(1)))" coverage="100%" />
+							<condition number="1" type="prof=jas_cmprof_createfromclrspc((((4)&lt;&lt;8)|(1)))" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="188" hits="60" branch="false" />
-					<line number="0" hits="1223" branch="false" />
-					<line number="0" hits="1228" branch="false" />
-					<line number="192" hits="1177" branch="false" />
-					<line number="191" hits="53" branch="true" condition-coverage="100%">
+					<line number="188" hits="0" branch="false" />
+					<line number="0" hits="0" branch="false" />
+					<line number="0" hits="0" branch="false" />
+					<line number="192" hits="0" branch="false" />
+					<line number="191" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="fwdpxform=jas_cmpxform_createshapmat()" coverage="100%" />
+							<condition number="2" type="fwdpxform=jas_cmpxform_createshapmat()" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="194" hits="52" branch="false" />
-					<line number="195" hits="23" branch="false" />
-					<line number="196" hits="57" branch="false" />
-					<line number="197" hits="53" branch="false" />
-					<line number="198" hits="46" branch="false" />
-					<line number="199" hits="41" branch="false" />
-					<line number="200" hits="52" branch="false" />
-					<line number="201" hits="14" branch="false" />
-					<line number="202" hits="16" branch="false" />
-					<line number="203" hits="17" branch="false" />
-					<line number="204" hits="23" branch="false" />
-					<line number="205" hits="23" branch="false" />
-					<line number="206" hits="19" branch="false" />
-					<line number="207" hits="24" branch="false" />
-					<line number="208" hits="17" branch="false" />
-					<line number="209" hits="15" branch="false" />
-					<line number="210" hits="14" branch="false" />
-					<line number="211" hits="16" branch="false" />
-					<line number="213" hits="8" branch="false" />
-					<line number="214" hits="8" branch="false" />
-					<line number="212" hits="10" branch="true" condition-coverage="100%">
+					<line number="194" hits="0" branch="false" />
+					<line number="195" hits="0" branch="false" />
+					<line number="196" hits="0" branch="false" />
+					<line number="197" hits="0" branch="false" />
+					<line number="198" hits="0" branch="false" />
+					<line number="199" hits="0" branch="false" />
+					<line number="200" hits="0" branch="false" />
+					<line number="201" hits="0" branch="false" />
+					<line number="202" hits="0" branch="false" />
+					<line number="203" hits="0" branch="false" />
+					<line number="204" hits="0" branch="false" />
+					<line number="205" hits="0" branch="false" />
+					<line number="206" hits="0" branch="false" />
+					<line number="207" hits="0" branch="false" />
+					<line number="208" hits="0" branch="false" />
+					<line number="209" hits="0" branch="false" />
+					<line number="210" hits="0" branch="false" />
+					<line number="211" hits="0" branch="false" />
+					<line number="213" hits="0" branch="false" />
+					<line number="214" hits="0" branch="false" />
+					<line number="212" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="3" type="revpxform=jas_cmpxform_createshapmat()" coverage="100%" />
+							<condition number="3" type="revpxform=jas_cmpxform_createshapmat()" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="216" hits="5" branch="false" />
-					<line number="217" hits="6" branch="false" />
-					<line number="218" hits="7" branch="false" />
-					<line number="219" hits="6" branch="false" />
-					<line number="220" hits="8" branch="false" />
-					<line number="221" hits="8" branch="false" />
-					<line number="224" hits="6" branch="false" />
-					<line number="228" hits="6" branch="false" />
-					<line number="223" hits="15" branch="true" condition-coverage="100%">
+					<line number="216" hits="0" branch="false" />
+					<line number="217" hits="0" branch="false" />
+					<line number="218" hits="0" branch="false" />
+					<line number="219" hits="0" branch="false" />
+					<line number="220" hits="0" branch="false" />
+					<line number="221" hits="0" branch="false" />
+					<line number="224" hits="0" branch="false" />
+					<line number="228" hits="0" branch="false" />
+					<line number="223" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="4" type="i&lt;4" coverage="100%" />
+							<condition number="4" type="i&lt;4" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="234" hits="5" branch="false" />
-					<line number="225" hits="12" branch="true" condition-coverage="100%">
+					<line number="234" hits="0" branch="false" />
+					<line number="225" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="5" type="prof-&gt;pxformseqs[j]" coverage="100%" />
+							<condition number="5" type="prof-&gt;pxformseqs[j]" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="226" hits="7" branch="true" condition-coverage="50%">
+					<line number="226" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="6" type="jas_cmpxformseq_insertpxform(prof-&gt;pxformseqs[j],0,fwdpxform)" coverage="50%" />
+							<condition number="6" type="jas_cmpxformseq_insertpxform(prof-&gt;pxformseqs[j],0,fwdpxform)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="240" hits="5" branch="false" />
-					<line number="242" hits="5" branch="false" />
-					<line number="231" hits="11" branch="true" condition-coverage="100%">
+					<line number="240" hits="0" branch="false" />
+					<line number="242" hits="0" branch="false" />
+					<line number="231" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="7" type="prof-&gt;pxformseqs[j]" coverage="100%" />
+							<condition number="7" type="prof-&gt;pxformseqs[j]" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="232" hits="6" branch="true" condition-coverage="50%">
+					<line number="232" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="8" type="jas_cmpxformseq_insertpxform(prof-&gt;pxformseqs[j],-1,revpxform)" coverage="50%" />
+							<condition number="8" type="jas_cmpxformseq_insertpxform(prof-&gt;pxformseqs[j],-1,revpxform)" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="247" hits="0" branch="false" />
@@ -20800,7 +20800,7 @@
 					<line number="654" hits="0" branch="false" />
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/_Test_3.c" filename="sources/3rdparty/libjasper/_Test_3.c" line-rate="0.647230" branch-rate="0.579365" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/_Test_3.c" filename="sources/3rdparty/libjasper/_Test_3.c" line-rate="0.918367" branch-rate="0.833333" complexity="0.0">
 				<methods />
 				<lines>
 					<line number="19" hits="6" branch="false" />
@@ -23556,7 +23556,7 @@
 				<methods />
 				<lines />
 			</classes>
-			<classes name="sources/3rdparty/libjasper/bigdata.c" filename="sources/3rdparty/libjasper/bigdata.c" line-rate="0.140927" branch-rate="0.129252" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/bigdata.c" filename="sources/3rdparty/libjasper/bigdata.c" line-rate="0.000000" branch-rate="0.000000" complexity="0.0">
 				<methods />
 				<lines>
 					<line number="14" hits="0" branch="false" />
@@ -23564,104 +23564,104 @@
 					<line number="18" hits="0" branch="false" />
 					<line number="20" hits="0" branch="false" />
 					<line number="22" hits="0" branch="false" />
-					<line number="33" hits="12" branch="false" />
-					<line number="34" hits="12" branch="false" />
-					<line number="35" hits="12" branch="false" />
-					<line number="36" hits="12" branch="false" />
-					<line number="37" hits="12" branch="false" />
-					<line number="38" hits="12" branch="false" />
-					<line number="40" hits="29" branch="true" condition-coverage="100%">
+					<line number="33" hits="0" branch="false" />
+					<line number="34" hits="0" branch="false" />
+					<line number="35" hits="0" branch="false" />
+					<line number="36" hits="0" branch="false" />
+					<line number="37" hits="0" branch="false" />
+					<line number="38" hits="0" branch="false" />
+					<line number="40" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="myi!=((void*)0)" coverage="100%" />
-							<condition number="2" type="myi-&gt;fnGet_PhyPortMax!=((void*)0)" coverage="100%" />
+							<condition number="1" type="myi!=((void*)0)" coverage="0%" />
+							<condition number="2" type="myi-&gt;fnGet_PhyPortMax!=((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="46" hits="6" branch="false" />
-					<line number="49" hits="10" branch="false" />
-					<line number="52" hits="6" branch="false" />
-					<line number="44" hits="43" branch="true" condition-coverage="100%">
+					<line number="46" hits="0" branch="false" />
+					<line number="49" hits="0" branch="false" />
+					<line number="52" hits="0" branch="false" />
+					<line number="44" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="3" type="uiPhyPortMax!=0" coverage="100%" />
-							<condition number="4" type="ulPortNo&gt;=uiPhyPortMax" coverage="100%" />
-							<condition number="5" type="ulCommand!=123" coverage="100%" />
+							<condition number="3" type="uiPhyPortMax!=0" coverage="0%" />
+							<condition number="4" type="ulPortNo&gt;=uiPhyPortMax" coverage="0%" />
+							<condition number="5" type="ulCommand!=123" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="47" hits="5" branch="true" condition-coverage="100%">
+					<line number="47" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="6" type="uiTsCount==123" coverage="100%" />
+							<condition number="6" type="uiTsCount==123" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="74" hits="11" branch="false" />
-					<line number="75" hits="11" branch="false" />
-					<line number="76" hits="11" branch="false" />
-					<line number="77" hits="22" branch="true" condition-coverage="100%">
+					<line number="74" hits="0" branch="false" />
+					<line number="75" hits="0" branch="false" />
+					<line number="76" hits="0" branch="false" />
+					<line number="77" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="1" type="flexeGroupInfo!=((void*)0)" coverage="100%" />
+							<condition number="1" type="flexeGroupInfo!=((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="82" hits="7" branch="false" />
-					<line number="80" hits="15" branch="true" condition-coverage="100%">
+					<line number="82" hits="0" branch="false" />
+					<line number="80" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="flexeGroupInfo-&gt;groupIndex==groupIndex" coverage="100%" />
+							<condition number="2" type="flexeGroupInfo-&gt;groupIndex==groupIndex" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="88" hits="9" branch="false" />
-					<line number="89" hits="5" branch="false" />
-					<line number="92" hits="4" branch="false" />
-					<line number="93" hits="5" branch="false" />
-					<line number="99" hits="5" branch="false" />
-					<line number="86" hits="11" branch="true" condition-coverage="100%">
+					<line number="88" hits="0" branch="false" />
+					<line number="89" hits="0" branch="false" />
+					<line number="92" hits="0" branch="false" />
+					<line number="93" hits="0" branch="false" />
+					<line number="99" hits="0" branch="false" />
+					<line number="86" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="3" type="flexeGroupInfo==((void*)0)" coverage="100%" />
+							<condition number="3" type="flexeGroupInfo==((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="107" hits="6" branch="false" />
-					<line number="110" hits="3" branch="false" />
-					<line number="113" hits="3" branch="false" />
-					<line number="115" hits="5" branch="false" />
-					<line number="95" hits="12" branch="true" condition-coverage="100%">
+					<line number="107" hits="0" branch="false" />
+					<line number="110" hits="0" branch="false" />
+					<line number="113" hits="0" branch="false" />
+					<line number="115" hits="0" branch="false" />
+					<line number="95" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="4" type="phyPortNode!=((void*)0)" coverage="100%" />
+							<condition number="4" type="phyPortNode!=((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="97" hits="4" branch="true" condition-coverage="100%">
+					<line number="97" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="5" type="activePortIndex&gt;=16" coverage="100%" />
+							<condition number="5" type="activePortIndex&gt;=16" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="105" hits="4" branch="true" condition-coverage="100%">
+					<line number="105" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="6" type="&amp;((&amp;(gBigData[(cardNo)]-&gt;stCfgInfo))-&gt;astFlexEInfo[phyPortInGrp-&gt;port_num])" coverage="100%" />
+							<condition number="6" type="&amp;((&amp;(gBigData[(cardNo)]-&gt;stCfgInfo))-&gt;astFlexEInfo[phyPortInGrp-&gt;port_num])" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="120" hits="2" branch="true" condition-coverage="0%">
+					<line number="120" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="1" type="x&gt;0" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="121" hits="0" branch="false" />
 					<line number="122" hits="0" branch="false" />
-					<line number="127" hits="2" branch="false" />
-					<line number="128" hits="2" branch="false" />
-					<line number="129" hits="2" branch="false" />
-					<line number="150" hits="2" branch="false" />
-					<line number="151" hits="2" branch="false" />
-					<line number="152" hits="2" branch="false" />
-					<line number="153" hits="2" branch="false" />
-					<line number="155" hits="2" branch="false" />
-					<line number="157" hits="2" branch="false" />
-					<line number="158" hits="2" branch="false" />
+					<line number="127" hits="0" branch="false" />
+					<line number="128" hits="0" branch="false" />
+					<line number="129" hits="0" branch="false" />
+					<line number="150" hits="0" branch="false" />
+					<line number="151" hits="0" branch="false" />
+					<line number="152" hits="0" branch="false" />
+					<line number="153" hits="0" branch="false" />
+					<line number="155" hits="0" branch="false" />
+					<line number="157" hits="0" branch="false" />
+					<line number="158" hits="0" branch="false" />
 					<line number="168" hits="0" branch="false" />
-					<line number="172" hits="1" branch="false" />
-					<line number="178" hits="2" branch="false" />
+					<line number="172" hits="0" branch="false" />
+					<line number="178" hits="0" branch="false" />
 					<line number="0" hits="0" branch="false" />
 					<line number="183" hits="0" branch="false" />
 					<line number="0" hits="0" branch="false" />
 					<line number="186" hits="0" branch="false" />
 					<line number="187" hits="0" branch="false" />
-					<line number="166" hits="2" branch="true" condition-coverage="100%">
+					<line number="166" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
-							<condition number="2" type="gBigData2[cardId]==((void*)0)" coverage="100%" />
+							<condition number="2" type="gBigData2[cardId]==((void*)0)" coverage="0%" />
 						</conditions>
 					</line>
 					<line number="189" hits="0" branch="false" />
@@ -24887,10 +24887,10 @@
 					<line number="1158" hits="0" branch="false" />
 				</lines>
 			</classes>
-			<classes name="sources/3rdparty/libjasper/_long_var.c" filename="sources/3rdparty/libjasper/_long_var.c" line-rate="0.053571" branch-rate="0.007937" complexity="0.0">
+			<classes name="sources/3rdparty/libjasper/_long_var.c" filename="sources/3rdparty/libjasper/_long_var.c" line-rate="0.125000" branch-rate="0.006173" complexity="0.0">
 				<methods />
 				<lines>
-					<line number="32" hits="4" branch="false" />
+					<line number="32" hits="2" branch="false" />
 					<line number="35" hits="0" branch="false" />
 					<line number="38" hits="0" branch="false" />
 					<line number="40" hits="0" branch="false" />
@@ -24906,7 +24906,7 @@
 							<condition number="2" type="ret==2" coverage="0%" />
 						</conditions>
 					</line>
-					<line number="48" hits="2" branch="true" condition-coverage="0%">
+					<line number="48" hits="6" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="1" type="ret==1" coverage="0%" />
 						</conditions>
@@ -24918,7 +24918,7 @@
 						</conditions>
 					</line>
 					<line number="53" hits="0" branch="false" />
-					<line number="58" hits="0" branch="true" condition-coverage="0%">
+					<line number="58" hits="6" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="1" type="ret==1" coverage="0%" />
 						</conditions>
@@ -24930,7 +24930,7 @@
 						</conditions>
 					</line>
 					<line number="63" hits="0" branch="false" />
-					<line number="68" hits="0" branch="false" />
+					<line number="68" hits="2" branch="false" />
 					<line number="70" hits="0" branch="true" condition-coverage="0%">
 						<conditions>
 							<condition number="1" type="ret==1" coverage="0%" />
